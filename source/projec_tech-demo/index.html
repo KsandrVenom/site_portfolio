@@ -1,0 +1,113 @@
+<DOCTYPE! html>
+<head>
+  <title> Сайт визитка будущего кандидата</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <header>
+	  <h1> Выборы в Городскую Думу Нижнего Новгорода 2019 года </h1>
+    <div class = "icon-header">
+      <div class = "icon-header--election">
+        Выборы 2019
+      </div>
+      <div class = "icon-header--date">
+        8 сентября
+      </div>
+    </div>
+    <nav class="blog-navigation">
+		  <ul>
+        <li><a href="#info">О выборах</a></li>
+        <li><a href="#about">О кандидате</a></li>
+        <li><a href="#forms">Оставить заявку</a></li>
+		  </ul>
+	 </nav>
+  </header>
+  
+  
+  <main>
+  
+	<div class="info clearfix" id="info">
+	
+		<h2>Выборы 2019 года в Городскую Думу Нижнего Новгорода</h2>
+		<p>О выборах. О причнах пойти. Интересно. Кратко. В цифрах.</p>
+		<div class = "brick">
+			<div class = "brick__caption">
+			Причина пойти номер раз
+			</div>
+			<div class = "brick__basic">
+			Текст причины
+			</div>
+		</div>
+		<div class = "brick">
+			<div class = "brick__caption">
+			Причина пойти номер два
+			</div>
+			<div class = "brick__basic">
+			Текст причины
+			</div>
+		</div>
+		<div class = "brick">
+			<div class = "brick__caption">
+			Причина пойти номер три
+			</div>
+			<div class = "brick__basic">
+			Текст причины
+			</div>
+		</div>
+	</div>
+	
+	<div class = "about-candidat clearfix">
+		<h2> Кандидат в Городскую Думу Нижнего Новгорода 2019</h2>
+		<div class = "avatar">
+		<img src="avatar.jpg" alt="аватар Алёны слева от about">
+		</div>
+		<div class="about" id="about">
+		<h3>Алёна С.</h3>
+		<p>Информация об Алёне. Краткие факты. О деятельности, хобби. О причинах пойти кандидатом. Что хотела бы сделать.</p>
+		</div>
+	</div>
+	
+	<div class="forms" id="forms">
+		<form action="" method="post">
+			<fieldset>
+				<legend>Заявка</legend>
+				<label>
+					Имя <input type="text" name="name" required placeholder="Иван" autocomplete="on">
+				</label>
+				<label>
+					Номер телефона<input type="tel" name="tel" required pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+					placeholder="8-999-888-77-66" autocomplete="on">
+				</label>
+				<input type="submit" value="Отправить">
+			<fieldset>
+		</form>
+	</div>
+	
+  </main>
+  
+  
+  <footer class = "clearfix">
+  	<div class="contacts">
+		Наши контакты:<br>
+		<br>
+		Адрес:<br>
+		<br>
+	</div>
+	<div class="networks">
+		<a href = "vk">
+			<img src = "vk" alt = "иконка vk">
+		</a>
+		<a href = "inst">
+			<img src = "inst" alt = "иконка inst">
+		</a>
+	</div>
+	<div class="write">
+		Блок номер три с адресом электронной почты?
+	</div>
+    
+  </footer>
+  
+</body>
