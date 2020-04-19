@@ -323,3 +323,7 @@ body {
   padding: 40px 0;
   background-color: #212349;
 }
+
+.switch-theme {
+  display: inline-block;
+}
