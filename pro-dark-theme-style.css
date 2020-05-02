@@ -7,7 +7,7 @@ body {
   line-height: 32px;
   color: #f2f2f2;
   background-color: #141530;
-  background-image: url("img/pattern-lines-hero.svg");
+  background-image: url("img/pro-dark-theme/pattern-lines-hero.svg");
   background-position: center;
 }
 
@@ -62,27 +62,27 @@ body {
 .header-email,
 .footer-email {
   padding-left: 28px;
-  background-image: url("img/icon-email.svg");
+  background-image: url("img/pro-dark-theme/icon-email.svg");
 }
 
 .header-email:focus,
 .header-email:hover,
 .footer-email:focus,
 .footer-email:hover {
-  background-image: url("img/icon-email-alt.svg");
+  background-image: url("img/pro-dark-theme/icon-email-alt.svg");
 }
 
 .header-phone,
 .footer-phone {
   padding-left: 21px;
-  background-image: url("img/icon-phone.svg");
+  background-image: url("img/pro-dark-theme/icon-phone.svg");
 }
 
 .header-phone:focus,
 .header-phone:hover,
 .footer-phone:focus,
 .footer-phone:hover {
-  background-image: url("img/icon-phone-alt.svg");
+  background-image: url("img/pro-dark-theme/icon-phone-alt.svg");
 }
 
 .page-header a:active,
@@ -94,7 +94,7 @@ body {
   position: relative;
   padding-top: 200px;
   height: 798px;
-  background-image: url("img/bg-html.png");
+  background-image: url("img/pro-dark-theme/bg-html.png");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 48px;
@@ -112,7 +112,7 @@ body {
   left: calc(50vw - 32px);
   width: 800px;
   height: 800px;
-  background-image: url("img/hero-image.svg");
+  background-image: url("img/pro-dark-theme/hero-image.svg");
   background-repeat: no-repeat;
 }
 
@@ -123,7 +123,7 @@ body {
   width: 100%;
   bottom: 0;
   background-color: #0b0c23;
-  background-image: url("img/bg-tags.svg");
+  background-image: url("img/pro-dark-theme/bg-tags.svg");
   background-position: center;
   background-repeat: no-repeat;
   border-top: 2px solid #5053a8;
@@ -153,7 +153,7 @@ body {
 .intro,
 .portfolio {
   background-color: #141530;
-  background-image: url("img/pattern-lines.svg");
+  background-image: url("img/pro-dark-theme/pattern-lines.svg");
   background-repeat: repeat-y;
   background-position-x: center;
 }
@@ -230,15 +230,15 @@ body {
 }
 
 .skill-html {
-  background-image: url("img/icon-html.svg");
+  background-image: url("img/pro-dark-theme/icon-html.svg");
 }
 
 .skill-css {
-  background-image: url("img/icon-css.svg");
+  background-image: url("img/pro-dark-theme/icon-css.svg");
 }
 
 .skill-js {
-  background-image: url("img/icon-js.svg");
+  background-image: url("img/pro-dark-theme/icon-js.svg");
 }
 
 .level {
@@ -257,7 +257,7 @@ body {
   letter-spacing: 1px;
   line-height: 26px;
   background-color: #5053a8;
-  background-image: url("img/progress-pattern.svg");
+  background-image: url("img/pro-dark-theme/progress-pattern.svg");
 }
 
 .portfolio {
